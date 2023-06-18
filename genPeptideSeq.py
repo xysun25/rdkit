@@ -6,6 +6,7 @@ try:
     os.mkdir('database')
 except FileExistsError:
     pass
+	
 
 class Peptides():
     def __init__(self, initSeq, addResNum):        
@@ -22,7 +23,8 @@ class Peptides():
             Seq = Seq + self.pep_dict[random.randint(1,40)]
         return Seq
     
-    def genMultipleRandomPeptides(self):
+    def genMultiple
+	RandomPeptides(self):
         f = open('./database/Peptides{}.txt'.format(str(len(self.initSeq) + self.addResNum))
             , mode='w'
             , encoding='utf-8'
