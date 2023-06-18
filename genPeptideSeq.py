@@ -23,8 +23,7 @@ class Peptides():
             Seq = Seq + self.pep_dict[random.randint(1,40)]
         return Seq
     
-    def genMultiple
-	RandomPeptides(self):
+    def genMultipleRandomPeptides(self):
         f = open('./database/Peptides{}.txt'.format(str(len(self.initSeq) + self.addResNum))
             , mode='w'
             , encoding='utf-8'
