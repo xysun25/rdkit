@@ -6,7 +6,6 @@ try:
     os.mkdir('database')
 except FileExistsError:
     pass
-	
 
 class Peptides():
     def __init__(self, initSeq, addResNum):        
