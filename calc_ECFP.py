@@ -23,7 +23,7 @@ from rdkit.Chem import Draw
 try:
     os.mkdir('excel')
 except FileExistsError:
-    pass
+    pas
 
 
 try:
