@@ -20,7 +20,7 @@ from rdkit.Chem import DataStructs
 from rdkit.Chem import Draw
 
 
-try
+try:
     os.mkdir('excel')
 except FileExistsError:
     pass
